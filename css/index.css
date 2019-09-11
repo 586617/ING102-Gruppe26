@@ -25,7 +25,8 @@ img.logo{
   padding-top: 2vh;
   padding-bottom: 2vh;
   /*størrelsen på bildet*/
-  width: 400px;
+  width: 25%;
+  height: 20%;
 }
 
 /*Innholdet i headeren*/
@@ -107,6 +108,11 @@ div.header{
 /* Viser dropdown menyen når du holder over den*/
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+#hovedbilde {
+  width: 70%; 
+  height: 70%;
 }
 
 
