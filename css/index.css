@@ -37,7 +37,7 @@ div.header{
 .navbar {
   /*bestemmer hva som skjer om innholdet går utenfor beholderen sin*/
   overflow: hidden;
-  background-color: #333;
+  background-color:#333;
   /*deler navbaren om til en grid*/
   display: grid;
   grid-template-columns:repeat(2, 1fr);
@@ -126,7 +126,7 @@ main{
 
 footer{
   height: 10vh;
-  background-color: #5B5B5B;
+  background-color: #333;
   font-family: Arial;
   text-align: center;
   margin-top: 1.5vh;
@@ -137,7 +137,6 @@ footer{
   grid-template-columns: repeat(3,1fr);
   color: white;
   align-items: center;
-  background-color: #5B5B5B;
   height: 10vh;
 }
 
