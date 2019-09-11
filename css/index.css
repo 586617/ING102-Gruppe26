@@ -114,6 +114,17 @@ div.header{
   height: 70%;
 }
 
+.facebook{
+  height: 40px;
+}
+
+.twitter {
+  height: 40px;
+}
+
+.insta{
+  height: 40px;
+}
 
 /*Hoveddelen av nettsiden*/
 main{
@@ -125,11 +136,11 @@ main{
 }
 
 footer{
-  height: 10vh;
+  height: 7vh;
   background-color: #333;
   font-family: Arial;
   text-align: center;
-  margin-top: 1.5vh;
+  margin-top: 2vh;
 }
 
 .footer_bilder{
@@ -137,6 +148,6 @@ footer{
   grid-template-columns: repeat(3,1fr);
   color: white;
   align-items: center;
-  height: 10vh;
+  height: 7vh;
 }
 
