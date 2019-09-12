@@ -1,5 +1,10 @@
-.table {
-    margin-left: 37.5%; 
+table.table {
+    border-collapse: collapse;
+    margin-left: 32%; 
+}
+  
+table, th, td {
+border: 2px solid black;
 }
 
 .matias_bilde{
