@@ -133,6 +133,7 @@ main{
   margin-right: 10vw;
   background-color: white;
   text-align: center;
+  font-family: Verdana, 'Lato', sans-serif;
 }
 
 footer{
@@ -142,11 +143,6 @@ footer{
   text-align: center;
   margin-top: 2vh;
 }
-
-p{
-  font-family: 'Lato', sans-serif;
-}
-
 .footer_bilder{
   display: grid;
   grid-template-columns: repeat(3,1fr);
