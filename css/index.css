@@ -143,6 +143,7 @@ footer{
   text-align: center;
   margin-top: 2vh;
 }
+
 .footer_bilder{
   display: grid;
   grid-template-columns: repeat(3,1fr);
