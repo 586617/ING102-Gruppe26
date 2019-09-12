@@ -143,6 +143,10 @@ footer{
   margin-top: 2vh;
 }
 
+p{
+  font-family: 'Lato', sans-serif;
+}
+
 .footer_bilder{
   display: grid;
   grid-template-columns: repeat(3,1fr);
