@@ -1,7 +1,15 @@
 
 ul{
 	text-align: left;
-	margin-left: 40%;
-	font-size: 24px;
+	margin-left: 42%;
+	font-size: 16px;
 	padding-bottom: 24px;
+}
+
+img.bio {
+	
+	width: 250px;
+}
+li{
+	padding-bottom: 5px;
 }
