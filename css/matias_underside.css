@@ -8,5 +8,6 @@ border: 2px solid black;
 }
 
 .matias_bilde{
-    height: 70%;
+    height: 250px;
+    border-radius: 50px;
 }
