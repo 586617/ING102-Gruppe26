@@ -121,7 +121,7 @@ main{
 ul{
 	text-align: left;
 	margin-left: 42%;
-	font-size: 20px;
+	font-size: 18px;
 	padding-bottom: 30px;
 }
 
@@ -129,16 +129,53 @@ li{
 	padding-bottom: 5px;
 }
 
+table.table{
+  border-collapse: collapse;
+  margin-left: 24%; 
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th, td{
+  padding: 15px;
+}
+
 #hovedbilde {
   width: 70%; 
   height: 70%;
   padding-bottom: 30px;
+  border-radius: 50px;
+}
+
+#prosjektbilde{
+  width: 40%;
+  height: 40%;
+  border-radius: 50px;
+}
+
+button.button{
+  background-color: #4CAF50; 
+  color: white;
+  text-align: center;
+  font-size: 16px;
 }
 
 img.bio{
   width: 250px;
   border-radius: 50px;
 }
+
+img.icon{
+	width: 25px;
+}
+
+.divPosisjon{
+  padding-bottom: 30px;    
+}
+
 footer{
   height: 7vh;
   background-color: #333;
@@ -155,33 +192,23 @@ footer{
   height: 7vh;
 }
 
-#prosjekt{
-  width: 40%;
-  height: 40%;
-  border-radius: 50px;
-}
-
-#download{
-  padding-bottom: 30px;
-}
-
-.button{
-  background-color: #4CAF50; 
-  color: white;
-  text-align: center;
-  font-size: 16px;
-}
-
-
-
-.facebook{
+img.facebook{
   height: 35px;
 }
 
-.twitter {
+img.twitter {
   height: 30px;
 }
 
-.insta{
+img.insta{
   height: 35px;
 }
+
+
+
+
+
+
+
+
+
