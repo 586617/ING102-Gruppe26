@@ -109,24 +109,6 @@ div.header{
   display: block;
 }
 
-#hovedbilde {
-  width: 70%; 
-  height: 70%;
-  padding-bottom: 30px;
-}
-
-.facebook{
-  height: 35px;
-}
-
-.twitter {
-  height: 30px;
-}
-
-.insta{
-  height: 35px;
-}
-
 /*Hoveddelen av nettsiden*/
 main{
   margin-left: 10vw;
@@ -136,6 +118,27 @@ main{
   font-family: Verdana, 'Lato', sans-serif;
 }
 
+ul{
+	text-align: left;
+	margin-left: 42%;
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+
+li{
+	padding-bottom: 5px;
+}
+
+#hovedbilde {
+  width: 70%; 
+  height: 70%;
+  padding-bottom: 30px;
+}
+
+img.bio{
+  width: 250px;
+  border-radius: 50px;
+}
 footer{
   height: 7vh;
   background-color: #333;
@@ -167,4 +170,18 @@ footer{
   color: white;
   text-align: center;
   font-size: 16px;
+}
+
+
+
+.facebook{
+  height: 35px;
+}
+
+.twitter {
+  height: 30px;
+}
+
+.insta{
+  height: 35px;
 }
