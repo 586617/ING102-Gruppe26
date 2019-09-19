@@ -112,7 +112,7 @@ div.header{
 #hovedbilde {
   width: 70%; 
   height: 70%;
-  padding: 10px;
+  padding-bottom: 30px;
 }
 
 .facebook{
@@ -156,4 +156,8 @@ footer{
   width: 40%;
   height: 40%;
   border-radius: 50px;
+}
+
+#download{
+  padding-bottom: 0px;
 }
