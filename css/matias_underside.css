@@ -1,6 +1,7 @@
-table.table {
+.table {
     border-collapse: collapse;
     margin-left: 32%; 
+    padding: 50px;
 }
   
 table, th, td {

@@ -112,6 +112,7 @@ div.header{
 #hovedbilde {
   width: 70%; 
   height: 70%;
+  padding: 10px;
 }
 
 .facebook{
@@ -128,7 +129,6 @@ div.header{
 
 /*Hoveddelen av nettsiden*/
 main{
-  min-height: 80vh;
   margin-left: 10vw;
   margin-right: 10vw;
   background-color: white;
@@ -141,7 +141,7 @@ footer{
   background-color: #333;
   font-family: Arial;
   text-align: center;
-  margin-top: 2vh;
+  margin-top: 1vh;
 }
 
 .footer_bilder{
@@ -152,3 +152,8 @@ footer{
   height: 7vh;
 }
 
+#prosjekt{
+  width: 40%;
+  height: 40%;
+  border-radius: 50px;
+}
