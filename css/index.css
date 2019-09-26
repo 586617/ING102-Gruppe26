@@ -143,6 +143,11 @@ th, td{
   padding: 15px;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
 #hovedbilde {
   width: 70%; 
   height: 70%;

@@ -92,7 +92,7 @@
                 </table>
                 <br>
 
-                <div id="downloadlink"></div>
+                <div id="downloadlink">Link: </div>
             </div>
         </main>
         
@@ -108,18 +108,20 @@
                 "https://www.sublimetext.com/download", "http://brackets.io/" ];
 
             function RiktigLink(){
-                if (inpNote.checked){             
-                    downloadlink.innerHTML = "<a href='" + links[0] + "'>Note++</a>"
+                downloadlink.innerHTML = "Link: ";
+                
+                if (inpNote.checked){            
+                    downloadlink.innerHTML += "<a href='" + links[0] + "'>Note++</a>"
 
                 }
                 else if(inpVS.checked){            
-                    downloadlink.innerHTML = "<a href='" + links[1] + "'>VS Code</a>"
+                    downloadlink.innerHTML += "<a href='" + links[1] + "'>VS Code</a>"
 
                 } else if(inpSub.checked){
-                    downloadlink.innerHTML = "<a href='" + links[2] + "'>Sublime</a>"
+                    downloadlink.innerHTML += "<a href='" + links[2] + "'>Sublime</a>"
 
                 } else if(inpBrack){
-                    downloadlink.innerHTML = "<a href='" + links[3] + "'>Brackets</a>"
+                    downloadlink.innerHTML += "<a href='" + links[3] + "'>Brackets</a>"
 
                 }
             }
