@@ -60,7 +60,7 @@
                             <td>Ja</td>
                             <td>Nei</td>
                             <td>Nei</td>
-                            <td><input type="checkbox" name="link" value="0"></td>
+                            <td><input type="radio" name="link" id="inpNote" unchecked></td>
                         </tr>
                         <tr>
                             <td>VS Code</td>
@@ -69,7 +69,7 @@
                             <td>Ja</td>
                             <td>Ja</td>
                             <td>Ja</td>
-                            <td><input type="checkbox" name="link" value="1"></td>
+                            <td><input type="radio" name="link" id="inpVS" unchecked></td>
                         </tr>
                         <tr>
                             <td>Sublime</td>
@@ -78,7 +78,7 @@
                             <td>Nei</td>
                             <td>Ja</td>
                             <td>Ja</td>
-                            <td><input type="checkbox" name="link" value="3"></td>
+                            <td><input type="radio" name="link" id="inpSub" unchecked></td>
                         </tr>
                         <tr>
                             <td>Brackets</td>
@@ -87,19 +87,47 @@
                             <td>Ja</td>
                             <td>Ja</td>
                             <td>Ja</td>
-                            <td><input type="checkbox" name="link" value="4"></td>
+                            <td><input type="radio" name="link" id="inpBrack" unchecked></td>
                         </tr>
                 </table>
                 <br>
 
-                <div id="downloadlink">Link</div>
+                <div id="downloadlink"></div>
             </div>
         </main>
         
         <script>
-           
+            var inpNote = document.getElementById("inpNote");
+            var inpVS = document.getElementById("inpVS");
+            var inpSub = document.getElementById("inpSub");
+            var inpBrack = document.getElementById("inpBrack");
 
+            var downloadlink = document.getElementById("downloadlink");
 
+            var links = ["https://notepad-plus-plus.org/downloads/", "https://code.visualstudio.com/download", 
+                "https://www.sublimetext.com/download", "http://brackets.io/" ];
+
+            function RiktigLink(){
+                if (inpNote.checked){             
+                    downloadlink.innerHTML = "<a href='" + links[0] + "'>Note++</a>"
+
+                }
+                else if(inpVS.checked){            
+                    downloadlink.innerHTML = "<a href='" + links[1] + "'>VS Code</a>"
+
+                } else if(inpSub.checked){
+                    downloadlink.innerHTML = "<a href='" + links[2] + "'>Sublime</a>"
+
+                } else if(inpBrack){
+                    downloadlink.innerHTML = "<a href='" + links[3] + "'>Brackets</a>"
+
+                }
+            }
+            
+            inpNote.onclick = RiktigLink;
+            inpVS.onclick = RiktigLink;
+            inpSub.onclick = RiktigLink;
+            inpBrack.onclick = RiktigLink;
 
         </script>
 		<footer>
