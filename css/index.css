@@ -161,7 +161,7 @@ a{
   border-radius: 50px;
 }
 
-a.last_ned{
+a.last_ned.fixed{
   color: #4CAF50; 
   border: 1px solid black;
   padding: 5px;
