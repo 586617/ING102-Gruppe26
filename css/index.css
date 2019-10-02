@@ -26,6 +26,7 @@ img.logo{
   padding-bottom: 2vh;
   /*størrelsen på bildet*/
   width: 24%;
+  border-radius: 50px;
 }
 
 /*Innholdet i headeren*/
