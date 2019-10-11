@@ -162,11 +162,16 @@ a{
   border-radius: 50px;
 }
 
-a.last_ned{
-  color: #4CAF50; 
-  border: 1px solid black;
-  padding: 5px;
+button.last_ned{
+  background-color: #4CAF50; 
+  border: none;
+  border-radius: 60px;
+  padding: 12px;
   font-size: 16px;
+}
+
+button.last_ned:hover{
+  background-color: red;
 }
 
 img.bio{
