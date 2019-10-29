@@ -162,7 +162,7 @@ a{
   border-radius: 50px;
 }
 
-button.last_ned{
+.last_ned{
   background-color: #4CAF50; 
   border: none;
   border-radius: 60px;
@@ -170,7 +170,7 @@ button.last_ned{
   font-size: 16px;
 }
 
-button.last_ned:hover{
+.last_ned:hover{
   background-color: red;
 }
 
@@ -184,7 +184,12 @@ img.icon{
 }
 
 .divPosisjon{
-  padding-bottom: 30px;    
+  background-color:#ddd;
+  position: fixed;
+  padding: 2em;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);   
 }
 
 footer{
