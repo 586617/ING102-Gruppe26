@@ -92,7 +92,7 @@
                 </table>
                 <br>
 
-                <div id="downloadlink">Link: </div>
+                <div id="downloadlink"></div>
             </div>
         </main>
         
@@ -108,7 +108,7 @@
                 "https://www.sublimetext.com/download", "http://brackets.io/" ];
 
             function RiktigLink(){
-                downloadlink.innerHTML = "Link: ";
+                downloadlink.innerHTML = " ";
                 
                 if (inpNote.checked){            
                     downloadlink.innerHTML += "<a href='" + links[0] + "'>" + links[0] + "</a>"
