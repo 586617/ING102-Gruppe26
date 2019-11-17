@@ -192,6 +192,10 @@ img.icon{
   transform: translate(-50%, -50%);   
 }
 
+.tabellPosisjon{
+  padding-bottom: 30px;
+}
+
 footer{
   height: 7vh;
   background-color: #333;
