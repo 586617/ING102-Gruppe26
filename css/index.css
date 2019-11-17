@@ -45,27 +45,8 @@ div.header{
   align-items: center;
 }
 
-/* Navnbar container for MATLAB */
-.navbar2 {
-  overflow: hidden;
-  background-color:#333;
-  /*deler navbaren om til en grid*/
-  display: grid;
-  grid-template-columns:repeat(2, 1fr);
-  align-items: center;
-}
-
-/* Linker inni navbaren */
-.navbar a {
-  font-size: 16px;
-  font-family: Tahoma,Verdana,Arial,sans-serif;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.navbar2 a {
+/* Css til linkene på navbaren */
+.navbar a{
   font-size: 16px;
   font-family: Tahoma,Verdana,Arial,sans-serif;
   color: white;
@@ -94,7 +75,7 @@ div.header{
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn .navbar2 a:hover{
+.navbar a:hover, .dropdown:hover .dropbtn, .navbar2 a:hover{
   /*bestemmer bakgrunnsfarge når du holder musen over en link i dropdown*/
   background-color: red;
 }
@@ -180,14 +161,18 @@ a{
 
 .last_ned{
   background-color: #4CAF50; 
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 60px;
-  padding: 12px;
-  font-size: 16px;
+  padding: 18px;
+  font-size: 20px;
 }
 
 .last_ned:hover{
   background-color: rgb(108, 108, 163);
+}
+
+#last_ned{
+  color: white;
 }
 
 img.bio{
@@ -200,7 +185,7 @@ img.icon{
 }
 
 .divPosisjon{
-  background-color:#ddd;
+  background-color:#333;
   position: fixed;
   padding: 0.5em;
   left: 50%;
