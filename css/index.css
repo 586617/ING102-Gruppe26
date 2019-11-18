@@ -211,6 +211,14 @@ footer{
   margin-top: 2vh;
 }
 
+/* Annen footer for index */
+#ekstra_footer{
+  height: 10vh;
+  background-color:#333;
+  font-family: Arial;
+  text-align: center;
+  margin-top: 13vh;
+}
 /* Setter opp en 3 i lengde grid til iconene*/
 .footer_bilder{
   display: grid;
