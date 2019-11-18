@@ -15,20 +15,6 @@ header{
  margin-bottom: 1.5vh;
 }
 
-/*Logoen*/
-img.logo{
-  display: block;
-  /*sentrerer bildet*/
-  margin-left: auto;
-  margin-right: auto;
-  /*plass over og under*/
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  /*størrelsen på bildet*/
-  width: 20%;
-  border-radius: 50px;
-}
-
 /*Innholdet i headeren*/
 div.header{
   /*Bakgrunnsfarge*/
@@ -210,6 +196,11 @@ img.bio{
 /* Iconene på Henrik sin side */
 img.icon{
 	width: 25px;
+}
+
+/* Daniel sin andre overskrift */
+#Anime{
+  margin-left: 10%;
 }
 
 /* Icon-linkene på bunnen av siden */
