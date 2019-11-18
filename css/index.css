@@ -24,7 +24,6 @@ div.header{
 /* Navbar containeren */
 .navbar {
   overflow: hidden;
-  margin-top: 20px;
   background-color:#333;
   /*Gjør navbar til en grid*/
   display: grid;
@@ -164,7 +163,7 @@ a{
   position: fixed;
   padding: 0.5em;
   left: 50%;
-  top: 85%;
+  top: 82%;
   transform: translate(-50%, -50%);   
 }
 
@@ -206,10 +205,10 @@ img.icon{
 /* Icon-linkene på bunnen av siden */
 footer{
   height: 7vh;
-  background-color: #333;
+  background-color:#333;
   font-family: Arial;
   text-align: center;
-  margin-top: 1vh;
+  margin-top: 2vh;
 }
 
 /* Setter opp en 3 i lengde grid til iconene*/
