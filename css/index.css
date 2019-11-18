@@ -245,6 +245,18 @@ img.insta{
   line-height: 30px;
 }
 
+.grid_kode {
+  overflow: hidden;
+  /*deler navbaren om til en grid*/
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  align-items: center;
+}
+
+.matlab_kode{
+  width: 100%;
+}
+
 
 
 
