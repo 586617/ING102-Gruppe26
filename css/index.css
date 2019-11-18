@@ -138,6 +138,11 @@ table.table{
   margin-left: 24%; 
 }
 
+/* Posisjonen til tabellen på Matias sin side */
+.tabellPosisjon{
+  padding-bottom: 30px;
+}
+
 /* Størrelsen og fargen til skillene i tabellen */
 table, th, td {
   border: 1px solid #ddd;
@@ -167,6 +172,7 @@ a{
   width: 20%;
 }
 
+/* Posisjonen til diven med last_ned knappene */
 .divPosisjon{
   background-color:#333;
   position: fixed;
@@ -195,19 +201,18 @@ a{
   color: white;
 }
 
+/* Bildene av medlemmene av gruppen */
 img.bio{
   width: 250px;
   border-radius: 50px;
 }
 
+/* Iconene på Henrik sin side */
 img.icon{
 	width: 25px;
 }
 
-.tabellPosisjon{
-  padding-bottom: 30px;
-}
-
+/* Icon-linkene på bunnen av siden */
 footer{
   height: 7vh;
   background-color: #333;
@@ -216,6 +221,7 @@ footer{
   margin-top: 1vh;
 }
 
+/* Setter opp en 3 i lengde grid til iconene*/
 .footer_bilder{
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -238,6 +244,7 @@ img.insta{
 
 /*MATLAB siden sin extra kode*/
 
+/* Griden til figurene på MATLAB */
 .grid {
   overflow: hidden;
   /*deler navbaren om til en grid*/
@@ -246,16 +253,19 @@ img.insta{
   align-items: center;
 }
 
+/* Størrelsen til bildene av figurene */
 .matlab_bilde{
   width: 70%;
   border: 2px solid black;
   border-radius: 50px;
 }
 
+/* Linjehøyde */
 #matlab_tekst {
   line-height: 30px;
 }
 
+/* Griden til MATLABkode */
 .grid_kode {
   overflow: hidden;
   margin-left: 200px;
@@ -265,6 +275,7 @@ img.insta{
   align-items: center;
 }
 
+/* Størrelsen på koden */
 .matlab_kode{
   width: 110%;
   padding: 20px;
