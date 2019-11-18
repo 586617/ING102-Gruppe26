@@ -247,6 +247,7 @@ img.insta{
 
 .grid_kode {
   overflow: hidden;
+  margin-left: 200px;
   /*deler navbaren om til en grid*/
   display: grid;
   grid-template-columns:repeat(3, 1fr);
@@ -254,7 +255,8 @@ img.insta{
 }
 
 .matlab_kode{
-  width: 100%;
+  width: 110%;
+  padding: 20px;
 }
 
 
