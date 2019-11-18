@@ -40,7 +40,7 @@ div.header{
   overflow: hidden;
   margin-top: 20px;
   background-color:#333;
-  /*deler navbaren om til en grid*/
+  /*Gjør navbar til en grid*/
   display: grid;
   grid-template-columns:repeat(3, 1fr);
   align-items: center;
@@ -62,7 +62,7 @@ div.header{
   text-align: center;
 }
 
-/* Dropdown knappen */
+/* Dropdown knappene */
 .dropdown .dropbtn {
   font-size: 16px; 
   border: none;
@@ -77,7 +77,7 @@ div.header{
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn, .navbar2 a:hover{
-  /*bestemmer bakgrunnsfarge når du holder musen over en link i dropdown*/
+  /*bestemmer bakgrunnsfarge når du holder musen over en link i dropdown eller knappene*/
   background-color: red;
 }
 
@@ -132,35 +132,51 @@ li{
 	padding-bottom: 5px;
 }
 
+/* Bestemmer strukturen til tabellen på Matias sin side */
 table.table{
   border-collapse: collapse;
   margin-left: 24%; 
 }
 
+/* Størrelsen og fargen til skillene i tabellen */
 table, th, td {
   border: 1px solid #ddd;
   text-align: left;
 }
 
+/* Rommet mellom tabell blokker */
 th, td{
   padding: 15px;
 }
 
+/* Utskrift av link blir svart og uten understrek*/
 a{
   text-decoration: none;
   color: black;
 }
 
+/* Størrelsen til hovedbildet på index */
 #hovedbilde {
   width: 60%; 
   padding-bottom: 30px;
   border-radius: 50px;
 }
 
+/* Størrelsen til bildet på prosjektsiden*/
 #prosjektbilde{
   width: 20%;
 }
 
+.divPosisjon{
+  background-color:#333;
+  position: fixed;
+  padding: 0.5em;
+  left: 50%;
+  top: 85%;
+  transform: translate(-50%, -50%);   
+}
+
+/* Gjør linkene + knappen om til knapper med css */
 .last_ned{
   background-color: #4CAF50; 
   border: 2px solid white;
@@ -169,10 +185,12 @@ a{
   font-size: 20px;
 }
 
+/* Når du har musepekeren over last_ned knappene */
 .last_ned:hover{
   background-color: rgb(108, 108, 163);
 }
 
+/* Fargen på teksten til divPosisjon */
 #last_ned{
   color: white;
 }
@@ -184,15 +202,6 @@ img.bio{
 
 img.icon{
 	width: 25px;
-}
-
-.divPosisjon{
-  background-color:#333;
-  position: fixed;
-  padding: 0.5em;
-  left: 50%;
-  top: 85%;
-  transform: translate(-50%, -50%);   
 }
 
 .tabellPosisjon{
