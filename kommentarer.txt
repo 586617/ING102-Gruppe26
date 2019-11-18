@@ -1,0 +1,14 @@
+Bilde 1:Figur 1, "Peaks" Startsjermen med funksjoner for å rotere figur og kamera, og bytte mellom 5 forskjellige figurer.
+"2 sides" er for å se figuren fra den andre siden og tilbake til orginal posisjon.
+"Above" viser figuren fra toppen
+"Rotate" roterer kamera rundt figuren
+< og > roterer selve figuren i rettningen med pilen
+"start" og "stop" er for å starte eller stoppe automatisk rotering av figuren
+menyen er for å velge mellom de forskjellige figurene.
+Bilde 2:Figur 2, "Membrane"
+Bilde 3:Figur 3, "Sinc"
+Bilde 4:Figur 4, "Ripple"
+Bilde 5:Figur 5, "Wiggle"
+Bilde 6:Visning av "Above" funksjon på figur 1
+Bilde 7:Visning av rotering av figur 1
+Bilde 8:Visning av rotering av kamera til figur 1

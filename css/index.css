@@ -149,6 +149,14 @@ a{
   color: black;
 }
 
+.grid {
+  overflow: hidden;
+  /*deler navbaren om til en grid*/
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
+  align-items: center;
+}
+
 #hovedbilde {
   width: 60%; 
   padding-bottom: 30px;
