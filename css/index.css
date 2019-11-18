@@ -38,6 +38,7 @@ div.header{
 /* Navbar containeren */
 .navbar {
   overflow: hidden;
+  margin-top: 20px;
   background-color:#333;
   /*deler navbaren om til en grid*/
   display: grid;
@@ -114,6 +115,7 @@ div.header{
 main{
   margin-left: 10vw;
   margin-right: 10vw;
+  margin-top: -40px;
   background-color: white;
   text-align: center;
   font-family: Verdana, 'Lato', sans-serif;
